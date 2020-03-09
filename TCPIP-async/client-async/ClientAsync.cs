@@ -46,7 +46,7 @@ namespace client_async
                 // Establish the remote endpoint for the socket.  
                 // The name of the   
                 // remote device is "..PCNAME..".  
-                IPHostEntry ipHostInfo = Dns.GetHostEntry("JKPC");
+                IPHostEntry ipHostInfo = Dns.GetHostEntry("REZARE004");
                 IPAddress ipAddress = ipHostInfo.AddressList[0];
                 IPEndPoint remoteEP = new IPEndPoint(ipAddress, port);
 
